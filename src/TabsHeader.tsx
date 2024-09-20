@@ -269,10 +269,11 @@ const styles = StyleSheet.create({
   },
   indicator: {
     position: 'absolute',
-    height: 2,
+    height: 10,
     width: 1,
     left: 0,
-    bottom: 0,
+    bottom: 12,
+    zIndex: -1,
     ...Platform.select({
       web: {
         backgroundColor: 'transparent',
